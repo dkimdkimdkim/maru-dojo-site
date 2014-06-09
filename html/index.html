@@ -1,53 +1,58 @@
 <html>
-  <head>
-    <title>Maru Dojo</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../js/parallax.js"></script>
-  </head>
-  <body>
-   <div class="bg"></div>
-   <section id="content">
-    <h1>maru dojo</h1>
-    <h2>a path to self-discovery through martial arts training</h2>
-    <ul id="disciplines">
-      <li>aikido</li>
-      <li>brazilian jiu-jitsu</li>
-      <li>filipino martial arts</li>
-    </ul>
+    <head>
+        <title>Maru Dojo</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("./header.html");
+            });
+        </script>
+        <script src="../js/parallax.js"></script>
+    </head>
+    <body>
+        <div class="bg"></div>
+        <section id="content">
+        <div id="header"></div>
 
-    <div id="intro" class="prose">
-      <span class="first-letter">E</span>ntering Maru Dojo, one might note that the atmosphere is lacking in punching bags and fighting rings.
-      Instead, one finds a peaceful, zen-like atmosphere, a place students consider the beginnings of their
-      humble journey to which they have cultivated a fond attachment.
-      <br />
-      <br />
+        <ul id="disciplines">
+            <li>aikido</li>
+            <li>brazilian jiu-jitsu</li>
+            <li>filipino martial arts</li>
+        </ul>
 
-      <span class="first-letter">T</span>he students take pride in cleaning the dojo. It is a place of peace, a venue for meditation and
-      self-improvement. The gym-like mentality and mixed martial arts attitude are absent from Maru Dojo. Humility
-      is strongly encouraged, and students check their arrogance prior to entering, increasingly familiar with
-      only the hindrance to progress it brings. The door is wide open to whomever wants to learn and share, but
-      shut tightly for ego.
-      <br />
-      <br />
+        <div id="intro" class="prose">
+            <span class="first-letter">E</span>ntering Maru Dojo, one might note that the atmosphere is lacking in punching bags
+            and fighting rings. Instead, one finds a peaceful, zen-like atmosphere, a place students consider the beginnings of
+            their humble journey to which they have cultivated a fond attachment.
+            <br />
+            <br />
 
-      <span class="first-letter">T</span>raining is done with earnest intent accompanied by light-hearted enthusiasm.
-      <br />
-      <br />
+            <span class="first-letter">T</span>he students take pride in cleaning the dojo. It is a place of peace, a venue for
+            meditation and self-improvement. The gym-like mentality and mixed martial arts attitude are absent from Maru Dojo.
+            Humility is strongly encouraged, and students check their arrogance prior to entering, increasingly familiar with only
+            the hindrance to progress it brings. The door is wide open to whomever wants to learn and share, but shut tightly for
+            ego.
+            <br />
+            <br />
 
-      <span class="first-letter">B</span>eginners are always welcome!
-    </p>
+            <span class="first-letter">T</span>raining is done with earnest intent accompanied by light-hearted enthusiasm.
+            <br />
+            <br />
 
-    <img class="photo" src="../assets/shrine.jpg" />
+            <span class="first-letter">B</span>eginners are always welcome!
+        </p>
 
-    <div id="about" class="prose">
-      <h3>
-        Creating a Community Through Martial Arts, Yoga, Pilates &amp; Feldenkrais
-      </h3>
-      Maru Dojo offers an avenue for Yoga, Pilates and Feldenkrais instructors to create your own classes.
-      Together we can help our community by fostering a healthy lifestyle.
-      Please inquire via email at: <a href="mailto:marusfdojo@gmail.com">marusfdojo@gmail.com</a>
-    </p>
-    </section>
-  </body>
+        <img class="photo" src="../assets/shrine.jpg" />
+
+        <div id="about" class="prose">
+            <h3>
+                Creating a Community Through Martial Arts, Yoga, Pilates &amp; Feldenkrais
+            </h3>
+            Maru Dojo offers an avenue for Yoga, Pilates and Feldenkrais instructors to create your own classes.
+            Together we can help our community by fostering a healthy lifestyle.
+            Please inquire via email at: <a href="mailto:marusfdojo@gmail.com">marusfdojo@gmail.com</a>
+        </p>
+        </section>
+    </body>
 </html>
